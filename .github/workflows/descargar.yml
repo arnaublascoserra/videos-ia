@@ -1,0 +1,31 @@
+name: Descargar resultados
+on:
+  push:
+    paths:
+      - 'sistema/pedidos/*.txt'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar URLs pendientes
+        run: |
+          mkdir -p sistema/descargas
+          for f in sistema/pedidos/*.txt; do
+            [ -f "$f" ] || continue
+            name=$(basename "$f" .txt)
+            url=$(head -n1 "$f" | tr -d '\r')
+            if ls sistema/descargas/"$name".* >/dev/null 2>&1; then continue; fi
+            ext="mp4"; case "$url" in *.png*) ext="png";; *.jpg*|*.jpeg*) ext="jpg";; *.webp*) ext="webp";; esac
+            curl -fsSL --retry 3 -o "sistema/descargas/$name.$ext" "$url" || echo "fallo $name"
+          done
+      - name: Guardar en el repositorio
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add sistema/descargas
+          git diff --cached --quiet || git commit -m "Resultados descargados"
+          git push
