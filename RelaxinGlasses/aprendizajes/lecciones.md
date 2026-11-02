@@ -28,3 +28,5 @@ Lecciones propias de este producto. Leer también `../../referencia-aleix/Snowbo
 - seedance-2.0 / 2.0-face: ~0,17 $/s en 720p con vídeo de referencia (0,69 $ por 4 s).
 - seedance-2.5 sin vídeo de referencia: 480p 0,096 $/s · 720p 0,216 $/s · 1080p 0,535 $/s. Con vídeo de ref.: (duración ref + generada) × 0,13 $ en 720p. Fijar siempre `duration` (en "Auto" reserva 30 s).
 - gpt-image-2: ~0,0085–0,015 $ por imagen.
+- **Producto manipulado en vídeo sin referencia se deforma:** en el vídeo de 14 s (seedance-2.5 desde fotogramas) las gafas puestas se ven bien, pero al ponerlas/quitarlas se doblan como una tira de goma, sin patillas ni almohadillas. Además, pedir "thin, slim" en los fotogramas simplificó el producto. Para planos con el producto en la mano: partir de un vídeo real con el producto (como la réplica) o hacer planos cortos en los que el producto apenas se mueva. *(Arnau, 2026-11-02, gafas-nuevo14s)*
+- **Las ojeras de `cara_ojeras.jpg` (hecha con ChatGPT) son demasiado marcadas para el vídeo:** se ven falsas. Usar una versión más suave. *(Arnau, 2026-11-02, gafas-v11)*
