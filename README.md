@@ -1,34 +1,26 @@
-# Vídeos con IA (APIMart) — aprendizajes
+# Vídeos con IA (APIMart) — Arnau
 
-Aprendizajes para crear vídeos de producto (UGC) con IA en APIMart.
-
-**Origen:** copia de los aprendizajes y scripts del repositorio [aleixgomez17/referencias-video](https://github.com/aleixgomez17/referencias-video), tomada el 2026-10-31 (commit `2d3c8da`). A partir de aquí se amplía con las pruebas de Arnau.
-
-## Contenido
+Repositorio para crear vídeos de producto (UGC) con IA en APIMart. Organizado igual que el del equipo de Aleix: **una carpeta por producto**.
 
 ```
-aprendizajes/
-  BackAlign/
-    lecciones.md               reglas aprendidas (modelos, prompts, límites, trucos)
-    prompts-que-funcionan.md   plantillas A–F listas para copiar
-    registro-generaciones.md   cada generación: modelo, coste, resultado, lección
-  NailCheck/
-    lecciones.md
-    prompts-que-funcionan.md
-    registro-generaciones.md
-scripts/                       retoques gratis sin IA (cambiar cara, fondo, mejorar caras, subtítulos…)
+RelaxinGlasses/      ← producto: gafas LED antiojeras (ver su README)
+  aprendizajes/  productos/  avatares/  fondos/  proyectos/
+referencia-aleix/    ← copia de los aprendizajes de aleixgomez17/referencias-video (NO editar; se actualiza copiando de su repo)
+  BackAlign/  NailCheck/  Snowbox/
+scripts/             ← retoques gratis: los 9 de Aleix + propios/ (quitar_texto_estatico.py, bajar_luz_led.py)
+sistema/             ← automático
+  pedidos/       escribir la URL de APIMart en un .txt y hacer push → GitHub la descarga en ~50 s en descargas/
+  descargas/     resultados descargados (moverlos luego al proyecto y el .txt a pedidos/archivo/)
+.github/workflows/   descarga automática
 ```
-
-## Cómo se actualiza
-
-- **Lección nueva:** se añade en la sección que toque con `(Arnau, fecha, proyecto)` al final.
-- **Si una prueba contradice una lección:** no se borra; se añade debajo `⚠️ (Arnau, fecha): en mi prueba pasó X`.
-- **Si la confirma:** `✔️ confirmado (Arnau, fecha)`.
-- **Cada generación:** una fila nueva al final de `registro-generaciones.md` con modelo, coste y resultado.
-- Las lecciones sin autor o con nombre de Aleix, Xavi o Victor vienen del repositorio original.
 
 ## Antes de generar
-
-1. Leer `aprendizajes/BackAlign/lecciones.md` y `prompts-que-funcionan.md` (y las de NailCheck si aplica).
+1. Leer `<Producto>/aprendizajes/` y `referencia-aleix/Snowbox/lecciones.md` (lecciones comunes más completas).
 2. Explicar plan, modelo y coste estimado, y esperar el OK antes de gastar.
-3. No subir fotos de personas reales a este repositorio: usar `upload_image` de APIMart.
+3. Después de cada generación: añadir la fila a `registro-generaciones.md` del producto y la lección si la hay.
+
+## Importante
+- El repo es **público**: APIMart lee las imágenes y vídeos desde `raw.githubusercontent.com`. No subir fotos de personas reales (usar `upload_image` de APIMart).
+- Fotos de producto limpias: sin textos, flechas, logos ni cajas, fondo liso, ≥ 500 px, proporción 0,4–2,5.
+
+Origen de `referencia-aleix/`: commit `ac612d5` (2026-11-02) de aleixgomez17/referencias-video.
