@@ -25,3 +25,4 @@
 | 2026-11-03 | Arnau | metodo-filedesign | gemini-3.1-flash-image-preview ×2 (4:3 4K) | Paso 3 producto: apagado (refs fotos 7,3,5,4) y encendido (refs 2,1), prompt del documento + 'reproduce EXACTLY' | ver revisión | 0,036 | — |
 | 2026-11-03 | Arnau | metodo-filedesign | seedance-2.5 | Vídeo 1 método Filedesign: 22 s, 9:16, 480p, audio inglés, image_urls = [hoja personaje jersey, producto 7 apagado, producto NB2 encendido], prompt con estructura exacta del vídeo + 5 frases | ver revisión en chat | 2,12 | — |
 | 2026-11-03 | Arnau | metodo-filedesign | gpt-image-2 (2k) | Imagen de inicio v2: editar fotograma 1 s del vídeo 1 cambiando las gafas de la mano por el producto real (fotos 5 y 3) y marcando ojeras | ver chat | 0,015 | — |
+| 2026-11-03 | Arnau | metodo-filedesign | gpt-image-2 (2k) | Imagen de inicio v2: solo cambiar las gafas de la mano por la foto 8 (tres cuartos, patillas abiertas) | ver chat | 0,015 | — |
