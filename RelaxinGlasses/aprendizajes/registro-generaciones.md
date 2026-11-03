@@ -27,3 +27,4 @@
 | 2026-11-03 | Arnau | metodo-filedesign | gpt-image-2 (2k) | Imagen de inicio v2: editar fotograma 1 s del vídeo 1 cambiando las gafas de la mano por el producto real (fotos 5 y 3) y marcando ojeras | ver chat | 0,015 | — |
 | 2026-11-03 | Arnau | metodo-filedesign | gpt-image-2 (2k) | Imagen de inicio v2: solo cambiar las gafas de la mano por la foto 8 (tres cuartos, patillas abiertas) | ver chat | 0,015 | — |
 | 2026-11-03 | Arnau | metodo-filedesign | gemini-3.1-flash-image-preview (2K) | Imagen de inicio v3: misma edición que v2 pero con Nano Banana 2 | ver chat | 0,014 | — |
+| 2026-11-03 | Arnau | metodo-filedesign | gemini-3.1-flash-image-preview (2K) | Imagen 5: mujer de imagen de inicio v3 con las gafas puestas y encendidas (refs: inicio v3, producto NB2 encendido, avatar gafas puestas apagadas) | buena: posición y luz suave correctas | 0,014 | — |
