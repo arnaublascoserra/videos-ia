@@ -7,6 +7,7 @@ RelaxinGlasses/      ← producto: gafas LED antiojeras (ver su README)
   aprendizajes/  productos/  avatares/  fondos/  proyectos/
 referencia-aleix/    ← copia de los aprendizajes de aleixgomez17/referencias-video (NO editar; se actualiza copiando de su repo)
   BackAlign/  NailCheck/  Snowbox/
+metodos/             ← métodos guardados (METODO_1.md = personaje + hoja + producto + Seedance 2.5)
 scripts/             ← retoques gratis: los 9 de Aleix + propios/ (quitar_texto_estatico.py, bajar_luz_led.py)
 sistema/             ← automático
   pedidos/       escribir la URL de APIMart en un .txt y hacer push → GitHub la descarga en ~50 s en descargas/

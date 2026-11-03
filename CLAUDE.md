@@ -7,6 +7,9 @@ Repositorio de Arnau para vídeos con IA en APIMart. Un producto = una carpeta (
 2. Leer `<Producto>/aprendizajes/lecciones.md`, `prompts-que-funcionan.md` y las últimas filas de `registro-generaciones.md`; y `referencia-aleix/Snowbox/lecciones.md`.
 3. Si Arnau pide actualizar la referencia del equipo de Aleix: copiar de nuevo `*/aprendizajes/*.md` de aleixgomez17/referencias-video a `referencia-aleix/<producto>/` (no editar a mano esa carpeta).
 
+## Métodos guardados
+- Si Arnau dice **"método 1"** / "usamos el método 1": seguir paso a paso `metodos/METODO_1.md`.
+
 ## Antes de gastar
 - Explicar plan, modelo y coste estimado y esperar el OK de Arnau.
 
