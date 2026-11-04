@@ -22,6 +22,12 @@ jobs:
             ext="mp4"; case "$url" in *.png*) ext="png";; *.jpg*|*.jpeg*) ext="jpg";; *.webp*) ext="webp";; esac
             curl -fsSL --retry 3 -o "sistema/descargas/$name.$ext" "$url" || echo "fallo $name"
           done
+      - name: Copia de seguridad como artefacto (por si falla el push)
+        uses: actions/upload-artifact@v4
+        with:
+          name: descargas
+          path: sistema/descargas
+          retention-days: 3
       - name: Guardar en el repositorio
         run: |
           git config user.name "github-actions"
