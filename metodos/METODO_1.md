@@ -70,7 +70,9 @@ Consistent character identity, outfit, setting and lighting across all five shot
 
 ## Paso 7 — Edición (gratis)
 - **Subtítulos** con ffmpeg + ASS (`RelaxinGlasses/metodo-filedesign/04_video/edicion/subs.py`): Poppins Bold 46, blanco con borde negro, mayúsculas, 2–4 palabras, sincronizados con los tramos de voz, parte baja (MarginV 120).
-- **Música** viral de fondo (CapCut web en el navegador integrado: Arnau inicia sesión, Claude hace el resto) o mp3 libre de derechos con ffmpeg.
+- Versión final usada: `edicion/subs_final.py` (frase entera por subtítulo, minúsculas, Poppins 28, borde negro, MarginV 110; tiempos sacados de los subtítulos automáticos de CapCut).
+- CapCut web: subtítulos automáticos en español gratis (sirven para saber exactamente qué dice y cuándo), pero la versión gratuita bloquea exportaciones tras varias ("función Pro") → exportar el final con ffmpeg.
+- **Música** viral: NO está en CapCut web (solo stock). Se añade al publicar en TikTok/Instagram, volumen 10–20 %. Para anuncio de pago, solo la biblioteca comercial.
 - Voz con ElevenLabs solo si la de Seedance no vale (hay que cuadrar cada frase con los labios).
 
 ## Coste de referencia (RelaxinGlasses, 22 s)

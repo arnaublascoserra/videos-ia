@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 480
+PlayResY: 854
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Poppins,28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,2.5,1,2,50,50,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.23,0:00:03.33,S,,0,0,0,,este es mi ritual de 10 minutos para los ojos cansados
+Dialogue: 0,0:00:03.67,0:00:05.07,S,,0,0,0,,mantengo pulsado
+Dialogue: 0,0:00:05.10,0:00:07.67,S,,0,0,0,,y sale esta luz roja suave bajo los ojos
+Dialogue: 0,0:00:08.67,0:00:10.40,S,,0,0,0,,luz roja y microcorrientes suaves
+Dialogue: 0,0:00:10.63,0:00:12.57,S,,0,0,0,,y se apaga sola a los 10 minutos
+Dialogue: 0,0:00:14.23,0:00:15.63,S,,0,0,0,,parezco otra persona
+Dialogue: 0,0:00:15.83,0:00:18.40,S,,0,0,0,,como si hubiera dormido toda la noche del tirón
+Dialogue: 0,0:00:18.87,0:00:21.77,S,,0,0,0,,tienes el enlace en mi perfil si quieres probarlas
