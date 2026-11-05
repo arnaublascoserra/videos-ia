@@ -6,26 +6,33 @@ EF=ImageFont.truetype('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf',109)
 def emoji_img(ch,size=54):
     im=Image.new('RGBA',(160,160),(0,0,0,0)); ImageDraw.Draw(im).text((10,10),ch,font=EF,embedded_color=True)
     im=im.crop(im.getbbox()); return im.resize((size,size),Image.LANCZOS)
-def layer(text,emo):
+def layer(text,emo,color=(255,255,255)):
+    FP='/usr/share/fonts/opentype/inter/Inter-Bold.otf'
     lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay)
-    words=text.split(); lines=[];cur=''
-    manual='|' in text
     e=emoji_img(emo) if emo else None; ew=(e.width+12) if e else 0
-    for w_ in words:
-        t=(cur+' '+w_).strip()
-        if d.textlength(t,font=F)>600: lines.append(cur);cur=w_
-        else: cur=t
-    lines.append(cur)
-    if manual: lines=[x.strip() for x in text.split('|')]
-    if e and not manual and d.textlength(lines[-1],font=F)+ew>600: lines.append('')
-    y=233
+    if '|' in text:
+        lines=[x.strip() for x in text.split('|') if x.strip()]
+    else:
+        f0=ImageFont.truetype(FP,50); lines=[];cur=''
+        for w_ in text.split():
+            t=(cur+' '+w_).strip()
+            if d.textlength(t,font=f0)>600: lines.append(cur);cur=w_
+            else: cur=t
+        lines.append(cur)
+    sz=50
+    while True:
+        Fl=ImageFont.truetype(FP,sz)
+        if max(d.textlength(l,font=Fl)+(ew if k==len(lines)-1 else 0) for k,l in enumerate(lines))<=660 or sz<=30: break
+        sz-=2
+    if e and sz!=50: e=e.resize((int(e.width*sz/50),int(e.height*sz/50)),Image.LANCZOS); ew=e.width+12
+    y=233; lh=int(sz*1.16)
     for i,l in enumerate(lines):
         last=(i==len(lines)-1)
-        lw=d.textlength(l,font=F)+(ew if (last and e) else 0)
+        lw=d.textlength(l,font=Fl)+(ew if (last and e) else 0)
         x=(W-lw)/2
-        d.text((x,y),l,font=F,fill=(255,255,255,255))
-        if last and e: lay.alpha_composite(e,(int(x+d.textlength(l,font=F)+(12 if l else 0)),y+4))
-        y+=58
+        d.text((x,y),l,font=Fl,fill=tuple(color)+(255,))
+        if last and e: lay.alpha_composite(e,(int(x+d.textlength(l,font=Fl)+12),y+int(4*sz/50)))
+        y+=lh
     a=np.array(lay)
     sh=np.array(Image.fromarray(a[...,3]).filter(ImageFilter.GaussianBlur(3))).astype(float)*0.55
     sh=np.roll(sh,(2,1),(0,1))/255.
@@ -41,7 +48,7 @@ def dim(f):
     hsv[...,2]=V*(1-0.35*s); hsv[...,1]=S*(1-0.25*s)
     return cv2.cvtColor(hsv.clip(0,255).astype(np.uint8),cv2.COLOR_HSV2BGR)
 src,out,spec=sys.argv[1],sys.argv[2],json.loads(sys.argv[3])
-segs=[(a,b,layer(t,e)) for a,b,t,e in spec]
+segs=[(x[0],x[1],layer(x[2],x[3],x[4] if len(x)>4 else (255,255,255))) for x in spec]
 cap=cv2.VideoCapture(src);fps=cap.get(5);i=0
 p=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','bgr24','-s',f'{W}x{H}','-r',str(fps),'-i','-','-an','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p',out],stdin=subprocess.PIPE)
 while True:
