@@ -43,3 +43,4 @@
 | 2026-11-05 | Arnau | avatares negra40 + hombre40 | gpt-image-2 (2:3, 2k) ×4 | Retratos base plantilla D (2 variantes de cada) | negra A y B ✅, hombre B ✅, hombre A se quedó atascado en 'processing' | 0,06 | — |
 | 2026-11-05 | Arnau | avatar hombre40 | gemini-3.1-flash-image-preview ×2 | Hoja sin ojeras (ref variante_B) + hoja con ojeras (edición + cara_ojeras mujer A solo para el tono) | ver revisión en chat | 0,036 | — |
 | 2026-11-05 | Arnau | avatar hombre40 | gemini-3.1-flash-image-preview | Hoja con ojeras v2: más suaves ('moderate… NOT raccoon'), sin la foto de tono de la mujer A | ver revisión | 0,018 | Con la foto de la mujer A como referencia de tono, en el hombre salieron demasiado oscuras (mapache) |
+| 2026-11-05 | Arnau | avatar hombre40 | gpt-image-2 | Gafas puestas encendidas en el coche: método validado [variante_B, img5_mitad_gafas_encendidas, coche_interior_v1] | pendiente de OK de Arnau | 0,015 | — |
