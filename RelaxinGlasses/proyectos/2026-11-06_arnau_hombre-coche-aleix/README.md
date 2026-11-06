@@ -11,3 +11,7 @@ Referencia: TikTok del hombre en el coche (snaptik_7652707556514729238, 9,1 s, 5
 4. ✅ Prompt plantilla E adaptada (ver registro).
 5. ❌ Generado: la cara NO cambió en ningún trozo (sale el hombre original). 16,3 créditos.
 6. Revisar · 7. Montaje (bajar LED, textos 14 y 6, tapar burbuja, 1080) · 8. Receta.
+
+## Intento 2 — hombre58 (canoso, sin barba)
+- Paso 5a ✅ trozo 2 (después): la cara cambia → `generaciones/hombre58_trozo2_v1.mp4` (6 créditos).
+- Paso 5b ⏳ trozo 1 (antes) con `cara_con_ojeras_recorte.jpg` (ojeras fuertes).
