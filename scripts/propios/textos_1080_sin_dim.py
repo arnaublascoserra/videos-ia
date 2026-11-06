@@ -6,7 +6,7 @@ EF=ImageFont.truetype('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf',109)
 def emoji_img(ch,size=54):
     im=Image.new('RGBA',(160,160),(0,0,0,0)); ImageDraw.Draw(im).text((10,10),ch,font=EF,embedded_color=True)
     im=im.crop(im.getbbox()); return im.resize((size,size),Image.LANCZOS)
-def layer(text,emo,color=(255,255,255)):
+def layer(text,emo,color=(255,255,255),y0=233):
     FP='/usr/share/fonts/opentype/inter/Inter-Bold.otf'
     lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay)
     e=emoji_img(emo) if emo else None; ew=(e.width+12) if e else 0
@@ -25,7 +25,7 @@ def layer(text,emo,color=(255,255,255)):
         if max(d.textlength(l,font=Fl)+(ew if k==len(lines)-1 else 0) for k,l in enumerate(lines))<=660 or sz<=30: break
         sz-=2
     if e and sz!=50: e=e.resize((int(e.width*sz/50),int(e.height*sz/50)),Image.LANCZOS); ew=e.width+12
-    y=233; lh=int(sz*1.16)
+    y=y0; lh=int(sz*1.16)
     for i,l in enumerate(lines):
         last=(i==len(lines)-1)
         lw=d.textlength(l,font=Fl)+(ew if (last and e) else 0)
@@ -49,7 +49,7 @@ def dim(f):
     return cv2.cvtColor(hsv.clip(0,255).astype(np.uint8),cv2.COLOR_HSV2BGR)
 src,out,spec=sys.argv[1],sys.argv[2],json.loads(sys.argv[3])
 OW,OH=1080,1920
-segs=[(x[0],x[1],cv2.resize(layer(x[2],x[3],x[4] if len(x)>4 else (255,255,255)),(OW,OH),interpolation=cv2.INTER_LANCZOS4)) for x in spec]
+segs=[(x[0],x[1],cv2.resize(layer(x[2],x[3],x[4] if len(x)>4 else (255,255,255),x[5] if len(x)>5 else 233),(OW,OH),interpolation=cv2.INTER_LANCZOS4)) for x in spec]
 rng=np.random.default_rng(0)
 cap=cv2.VideoCapture(src);fps=cap.get(5);i=0
 p=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','bgr24','-s',f'{OW}x{OH}','-r',str(fps),'-i','-','-an','-c:v','libx264','-preset','medium','-crf','16','-pix_fmt','yuv420p',out],stdin=subprocess.PIPE)

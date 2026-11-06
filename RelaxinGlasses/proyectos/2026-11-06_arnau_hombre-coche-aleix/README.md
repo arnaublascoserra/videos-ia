@@ -17,4 +17,4 @@ Referencia: TikTok del hombre en el coche (snaptik_7652707556514729238, 9,1 s, 5
 - Paso 5b ✅ trozo 1 (antes) con `cara_con_ojeras_recorte.jpg` → `generaciones/hombre58_trozo1_v1.mp4` (10,3 créditos).
 - Borrador unido a velocidad original: `generaciones/hombre58_borrador_unido.mp4`.
 - Paso 7 ✅ montaje con los textos del TikTok original: `bajar_luz_led.py` + `textos_1080_sin_dim.py` → `final/hombre58_coche_aleix_textos_originales_ES.mp4` (1080×1920, 8,1 s, sin audio).
-  Textos: 0–2,62 "Encontré el secreto para verme | como hace 20 años... 🥹" · 2,62–5,58 "Muchos nos habéis preguntado | cómo conseguirlo" · 5,58–fin "Lo tenéis en nuestro perfil" (amarillo).
+  Textos: 0–2,62 "Encontré el secreto para verme | como hace 20 años... 🥹" · 2,62–5,58 "Muchos nos habéis preguntado | cómo conseguirlo" · 5,58–fin "Lo tenéis en nuestro perfil" (amarillo). Posición: 1ª arriba (y=233), 2ª abajo (y=900), 3ª arriba (parámetro 6 del script = y).
