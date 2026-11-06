@@ -14,4 +14,6 @@ Referencia: TikTok del hombre en el coche (snaptik_7652707556514729238, 9,1 s, 5
 
 ## Intento 2 — hombre58 (canoso, sin barba)
 - Paso 5a ✅ trozo 2 (después): la cara cambia → `generaciones/hombre58_trozo2_v1.mp4` (6 créditos).
-- Paso 5b ⏳ trozo 1 (antes) con `cara_con_ojeras_recorte.jpg` (ojeras fuertes).
+- Paso 5b ✅ trozo 1 (antes) con `cara_con_ojeras_recorte.jpg` → `generaciones/hombre58_trozo1_v1.mp4` (10,3 créditos).
+- Borrador unido a velocidad original: `generaciones/hombre58_borrador_unido.mp4`.
+- Paso 6 ⏳ revisión de Arnau · 7 montaje (bajar LED, textos 14 y 6, 1080).
