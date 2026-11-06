@@ -41,7 +41,7 @@ Prompt literal:
 > Shot 2 (6-9s): he takes the glasses off and ends exactly like image 3: fresh rested face with no dark circles, his left hand holds the switched-off glasses at chest height, the index finger of his right hand gently touches the skin under his eye, pleasantly surprised smile with mouth closed, looking at the camera.
 > The glasses are always exactly the product of image 5 (white, two oval eye pads, never deformed, never changing size or shape). Consistent face, beard, hair, t-shirt, car and lighting. Realistic skin texture, natural hand movements, slight natural phone shake. No text, no music.
 
-## 7. Hombre58 coche — método 1 sin hablar (2026-11-06) — pendiente de revisión
+## 7. Hombre58 coche — método 1 sin hablar (2026-11-06) ✅ validado por Arnau (preferido frente al método de Aleix)
 Base de la imagen de inicio = fotograma de un vídeo ya generado (como el vídeo 3 de metodo-filedesign).
 - 4a inicio: NB2 9:16 2K, [fotograma 1,0 s del vídeo Aleix hombre58, producto 8, hoja ojeras medias] — "Edit @image1… Change only two things: 1) glasses → @image2 (white opaque temples, same size)… 2) moderate under-eye dark circles like @image3". Luego ojeras +70 % gratis mezclando el fotograma base.
 - 4b puestas encendidas: NB2, [inicio, producto NB2 encendido, fotograma Aleix 3 s (manos), hombre40 gafas encendidas coche (posición)].
