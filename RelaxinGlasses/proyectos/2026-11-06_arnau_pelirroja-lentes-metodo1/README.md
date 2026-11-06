@@ -8,4 +8,5 @@ Pasos:
 1-3. ✅ avatar, hojas, baño (avatares/pelirroja32), producto.
 4a. ✅ `fotogramas/plano1_antes.jpg` — NB2 9:16 2K, edit de pelirroja32/gafas_puestas_encendidas.png + hoja con ojeras: sin gafas, ojeras marcadas, frotándose bajo el ojo.
 4b. ✅ `fotogramas/plano3_ponerse_gafas.jpg` — NB2, refs [plano1_antes, producto 8, gafas_puestas_encendidas (tamaño)]: gafas apagadas delante de los ojos, tamaño = cara.
-4c. ⏳ después. 5 vídeos. 6 plano 2. 7 montaje.
+4c. ✅ `fotogramas/plano4_despues.jpg` — NB2, refs [plano3, hoja sin ojeras, producto 8]: camisa azul clara de lino, sin ojeras, sonriendo con las gafas apagadas puestas.
+4d. ⏳ plano 2 (caja) imagen de inicio. 5 vídeos. 7 montaje.
