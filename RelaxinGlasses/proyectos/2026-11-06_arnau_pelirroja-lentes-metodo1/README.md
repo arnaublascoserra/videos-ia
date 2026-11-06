@@ -7,4 +7,5 @@ El plano 2 NO se copia del TikTok (contenido de otro creador): IA con nuestras f
 Pasos:
 1-3. ✅ avatar, hojas, baño (avatares/pelirroja32), producto.
 4a. ✅ `fotogramas/plano1_antes.jpg` — NB2 9:16 2K, edit de pelirroja32/gafas_puestas_encendidas.png + hoja con ojeras: sin gafas, ojeras marcadas, frotándose bajo el ojo.
-4b. ⏳ plano 3 (se pone las gafas). 4c después. 5 vídeos. 6 plano 2. 7 montaje.
+4b. ✅ `fotogramas/plano3_ponerse_gafas.jpg` — NB2, refs [plano1_antes, producto 8, gafas_puestas_encendidas (tamaño)]: gafas apagadas delante de los ojos, tamaño = cara.
+4c. ⏳ después. 5 vídeos. 6 plano 2. 7 montaje.
