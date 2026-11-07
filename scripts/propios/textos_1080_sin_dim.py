@@ -3,9 +3,16 @@ from PIL import Image,ImageDraw,ImageFont,ImageFilter
 W,H=720,1280
 F=ImageFont.truetype('/usr/share/fonts/opentype/inter/Inter-Bold.otf',50)
 EF=ImageFont.truetype('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf',109)
-def emoji_img(ch,size=54):
+def _emoji1(ch,size):
     im=Image.new('RGBA',(160,160),(0,0,0,0)); ImageDraw.Draw(im).text((10,10),ch,font=EF,embedded_color=True)
     im=im.crop(im.getbbox()); return im.resize((size,size),Image.LANCZOS)
+def emoji_img(ch,size=54):
+    chars=[c for c in ch if c not in '\ufe0f\u200d ']
+    ims=[_emoji1(c,size) for c in chars]
+    if len(ims)==1: return ims[0]
+    out=Image.new('RGBA',(size*len(ims)+6*(len(ims)-1),size),(0,0,0,0))
+    for i,im in enumerate(ims): out.alpha_composite(im,(i*(size+6),0))
+    return out
 def layer(text,emo,color=(255,255,255),y0=233):
     FP='/usr/share/fonts/opentype/inter/Inter-Bold.otf'
     lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay)
@@ -24,7 +31,7 @@ def layer(text,emo,color=(255,255,255),y0=233):
         Fl=ImageFont.truetype(FP,sz)
         if max(d.textlength(l,font=Fl)+(ew if k==len(lines)-1 else 0) for k,l in enumerate(lines))<=660 or sz<=30: break
         sz-=2
-    if e and sz!=50: e=e.resize((int(e.width*sz/50),int(e.height*sz/50)),Image.LANCZOS); ew=e.width+12
+    if e and sz!=50: e=e.resize((max(1,int(e.width*sz/50)),max(1,int(e.height*sz/50))),Image.LANCZOS); ew=e.width+12
     y=y0; lh=int(sz*1.16)
     for i,l in enumerate(lines):
         last=(i==len(lines)-1)
