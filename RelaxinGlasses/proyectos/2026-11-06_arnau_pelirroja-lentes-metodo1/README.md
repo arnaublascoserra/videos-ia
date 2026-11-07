@@ -16,3 +16,4 @@ Pasos:
 - v2 (2026-11-07): vídeo C repetido (gafas derechas al quitárselas) → `generaciones/videoC_v2.mp4`; texto 1 cambiado a "Así eliminé mis ojeras en 30 días..."; emojis 👓🔴 y 😌😌 completos (script arreglado). Final exportado a crf 20 (27 MB).
 - Pendiente: después con la sudadera verde en vez de la camisa (Arnau).
 - v3 (2026-11-07): "lentes" → "gafas" en los textos 2 y 4 ("Son unas gafas de microcorriente con luz roja", "Comenta “Gafas” para más información"). Final: `final/pelirroja_gafas_metodo1_textos_ES.mp4`.
+- Unboxing (2026-11-07, sin texto, misma sudadera): A 0–3 + B v2 0,3–4 + D 0–5 → `final/pelirroja_unboxing_sin_texto.mp4` (11,7 s). Textos: por decidir.
