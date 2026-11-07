@@ -12,3 +12,6 @@ Pasos:
 4d. ✅ `fotogramas/plano2_caja.jpg` — NB2, refs [caja_generica_abierta_foto_real, plano1 (baño y manos), producto 8], "NO cable": manos con pecas sujetan la caja abierta con las gafas en la bandeja, sobre el lavabo.
 5. ✅ `generaciones/video{A,B,C}_v1.mp4` (seedance-2.5 480p, 12,6 créditos).
 7. ✅ `final/pelirroja_lentes_metodo1_textos_originales_ES.mp4` (12,6 s): A 0–3 · B 0,4–4 · A 3–5 · C 0–4; `bajar_luz_led.py` + `textos_1080_sin_dim.py` (y=330). Textos originales.
+
+- v2 (2026-11-07): vídeo C repetido (gafas derechas al quitárselas) → `generaciones/videoC_v2.mp4`; texto 1 cambiado a "Así eliminé mis ojeras en 30 días..."; emojis 👓🔴 y 😌😌 completos (script arreglado). Final exportado a crf 20 (27 MB).
+- Pendiente: después con la sudadera verde en vez de la camisa (Arnau).
