@@ -10,4 +10,5 @@ Pasos:
 4b. ✅ `fotogramas/plano3_ponerse_gafas.jpg` — NB2, refs [plano1_antes, producto 8, gafas_puestas_encendidas (tamaño)]: gafas apagadas delante de los ojos, tamaño = cara.
 4c. ✅ `fotogramas/plano4_despues.jpg` — NB2, refs [plano3, hoja sin ojeras, producto 8]: camisa azul clara de lino, sin ojeras, sonriendo con las gafas apagadas puestas.
 4d. ✅ `fotogramas/plano2_caja.jpg` — NB2, refs [caja_generica_abierta_foto_real, plano1 (baño y manos), producto 8], "NO cable": manos con pecas sujetan la caja abierta con las gafas en la bandeja, sobre el lavabo.
-5. ⏳ vídeos A (planos 1+3), B (caja), C (después). 7 montaje.
+5. ✅ `generaciones/video{A,B,C}_v1.mp4` (seedance-2.5 480p, 12,6 créditos).
+7. ✅ `final/pelirroja_lentes_metodo1_textos_originales_ES.mp4` (12,6 s): A 0–3 · B 0,4–4 · A 3–5 · C 0–4; `bajar_luz_led.py` + `textos_1080_sin_dim.py` (y=330). Textos originales.
