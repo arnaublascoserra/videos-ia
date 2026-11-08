@@ -13,7 +13,7 @@ def emoji_img(ch,size=54):
     out=Image.new('RGBA',(size*len(ims)+6*(len(ims)-1),size),(0,0,0,0))
     for i,im in enumerate(ims): out.alpha_composite(im,(i*(size+6),0))
     return out
-def layer(text,emo,color=(255,255,255),y0=233):
+def layer(text,emo,color=(255,255,255),y0=233,stroke=0):
     FP='/usr/share/fonts/opentype/inter/Inter-Bold.otf'
     lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay)
     e=emoji_img(emo) if emo else None; ew=(e.width+12) if e else 0
@@ -37,7 +37,7 @@ def layer(text,emo,color=(255,255,255),y0=233):
         last=(i==len(lines)-1)
         lw=d.textlength(l,font=Fl)+(ew if (last and e) else 0)
         x=(W-lw)/2
-        d.text((x,y),l,font=Fl,fill=tuple(color)+(255,))
+        d.text((x,y),l,font=Fl,fill=tuple(color)+(255,),stroke_width=stroke,stroke_fill=(0,0,0,255))
         if last and e: lay.alpha_composite(e,(int(x+d.textlength(l,font=Fl)+12),y+int(4*sz/50)))
         y+=lh
     a=np.array(lay)
@@ -56,7 +56,7 @@ def dim(f):
     return cv2.cvtColor(hsv.clip(0,255).astype(np.uint8),cv2.COLOR_HSV2BGR)
 src,out,spec=sys.argv[1],sys.argv[2],json.loads(sys.argv[3])
 OW,OH=1080,1920
-segs=[(x[0],x[1],cv2.resize(layer(x[2],x[3],x[4] if len(x)>4 else (255,255,255),x[5] if len(x)>5 else 233),(OW,OH),interpolation=cv2.INTER_LANCZOS4)) for x in spec]
+segs=[(x[0],x[1],cv2.resize(layer(x[2],x[3],x[4] if len(x)>4 else (255,255,255),x[5] if len(x)>5 else 233,x[6] if len(x)>6 else 0),(OW,OH),interpolation=cv2.INTER_LANCZOS4)) for x in spec]
 rng=np.random.default_rng(0)
 cap=cv2.VideoCapture(src);fps=cap.get(5);i=0
 p=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','bgr24','-s',f'{OW}x{OH}','-r',str(fps),'-i','-','-an','-c:v','libx264','-preset','medium','-crf','16','-pix_fmt','yuv420p',out],stdin=subprocess.PIPE)

@@ -20,3 +20,4 @@ Pasos:
 - Unboxing como el original (2026-11-08): A 0–3 + 2a 0,5–3,2 + 2b 0,2–4 + D 0–5 → `final/pelirroja_unboxing_como_original_sin_texto.mp4` (14,5 s).
 - Arreglo (2026-11-08): el vídeo D empieza en el segundo 2 (gafas ya puestas y encendidas) para que no se vean encenderse solas → final de 12,5 s.
 - Unboxing v3 (2026-11-08): plano 2b con el ángulo de la referencia (video2b_enciende_v3_angulo) → final 12,4 s; copiado a listos para publicar.
+8. ✅ `final/pelirroja_unboxing_textos_ES.mp4` (12,6 s): unboxing con 2b v4 POV, luz −30 % en ese plano (`bajar_luz_led_fuerte.py` kv 0,3 ks 0,05) + textos de Arnau (0–3 / 3–7,2 / 7,2–9,6 / 9,6–fin, y=330, contorno negro nuevo en `textos_1080_sin_dim.py`: 7.º valor = grosor).
