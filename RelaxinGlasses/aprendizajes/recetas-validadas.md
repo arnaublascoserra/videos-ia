@@ -46,3 +46,9 @@ Base de la imagen de inicio = fotograma de un vídeo ya generado (como el vídeo
 - 4a inicio: NB2 9:16 2K, [fotograma 1,0 s del vídeo Aleix hombre58, producto 8, hoja ojeras medias] — "Edit @image1… Change only two things: 1) glasses → @image2 (white opaque temples, same size)… 2) moderate under-eye dark circles like @image3". Luego ojeras +70 % gratis mezclando el fotograma base.
 - 4b puestas encendidas: NB2, [inicio, producto NB2 encendido, fotograma Aleix 3 s (manos), hombre40 gafas encendidas coche (posición)].
 - 5 vídeo: seedance-2.5, 9 s, 9:16, 480p, sin audio; image_urls [inicio, hoja sin ojeras, producto 8, producto NB2 encendido, gafas puestas encendidas]; prompt de 3 planos (0–2 sujeta quietas a la barbilla, 2–6 se las pone + luz tenue, 6–9 plano cercano sin gafas sin ojeras, dedo bajo el ojo), "He does not speak".
+
+## 8. Unboxing de producto en mano, igual que un vídeo de referencia (pelirroja, 2026-11-08) — pendiente de OK de Arnau
+1. Sacar fotogramas del plano de referencia y describirlos uno a uno (NO pasar sus fotogramas a la IA: copiaría su baño/manos).
+2. Una foto de inicio por cada acción (NB2 9:16 2K) con: foto del avatar en su sitio (manos/ropa) + fotos PROPIAS del producto en la misma vista que el original (girar 180° gratis si hace falta) + caja real. Pedir "NO cable".
+3. Un vídeo de 4 s por acción (seedance-2.5 480p sin audio), unidos con corte en el montaje como el original.
+4. bajar_luz_led.py en el montaje.
