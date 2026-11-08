@@ -18,3 +18,4 @@ Pasos:
 - v3 (2026-11-07): "lentes" → "gafas" en los textos 2 y 4 ("Son unas gafas de microcorriente con luz roja", "Comenta “Gafas” para más información"). Final: `final/pelirroja_gafas_metodo1_textos_ES.mp4`.
 - Unboxing (2026-11-07, sin texto, misma sudadera): A 0–3 + B v2 0,3–4 + D 0–5 → `final/pelirroja_unboxing_sin_texto.mp4` (11,7 s). Textos: por decidir.
 - Unboxing como el original (2026-11-08): A 0–3 + 2a 0,5–3,2 + 2b 0,2–4 + D 0–5 → `final/pelirroja_unboxing_como_original_sin_texto.mp4` (14,5 s).
+- Arreglo (2026-11-08): el vídeo D empieza en el segundo 2 (gafas ya puestas y encendidas) para que no se vean encenderse solas → final de 12,5 s.
