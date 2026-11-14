@@ -47,8 +47,21 @@ Base de la imagen de inicio = fotograma de un vídeo ya generado (como el vídeo
 - 4b puestas encendidas: NB2, [inicio, producto NB2 encendido, fotograma Aleix 3 s (manos), hombre40 gafas encendidas coche (posición)].
 - 5 vídeo: seedance-2.5, 9 s, 9:16, 480p, sin audio; image_urls [inicio, hoja sin ojeras, producto 8, producto NB2 encendido, gafas puestas encendidas]; prompt de 3 planos (0–2 sujeta quietas a la barbilla, 2–6 se las pone + luz tenue, 6–9 plano cercano sin gafas sin ojeras, dedo bajo el ojo), "He does not speak".
 
-## 8. Unboxing de producto en mano, igual que un vídeo de referencia (pelirroja, 2026-11-08) — pendiente de OK de Arnau
+## 8. Unboxing de producto en mano, igual que un vídeo de referencia (pelirroja, 2026-11-08) ✅ validado por Arnau (final con 2b v4 POV + luz −30 %)
 1. Sacar fotogramas del plano de referencia y describirlos uno a uno (NO pasar sus fotogramas a la IA: copiaría su baño/manos).
 2. Una foto de inicio por cada acción (NB2 9:16 2K) con: foto del avatar en su sitio (manos/ropa) + fotos PROPIAS del producto en la misma vista que el original (girar 180° gratis si hace falta) + caja real. Pedir "NO cable".
 3. Un vídeo de 4 s por acción (seedance-2.5 480p sin audio), unidos con corte en el montaje como el original.
 4. bajar_luz_led.py en el montaje.
+
+## 9. Testimonio "30 días" con voz, en clips separados (mujer B, 2026-11-14) ✅ validado por Arnau
+Por qué: un antes/después dentro del mismo plano queda falso ("quemado") y poco creíble; con 30 días y clips separados, cada clip empieza ya en su estado y no cambia dentro.
+1. Imágenes de inicio (en `metodo-filedesign/04_video/fotogramas/`):
+   - Día 1: `imagen_inicio_v6_ojeras55.jpg` = mezcla gratis 45 % `imagen_inicio_v3_nb2` + 55 % `imagen_inicio_v4_ojeras_nb2` (NB2 'Change ONLY the skin under her eyes… brownish-grey… NOT purple'). Al 100 % queda exagerado.
+   - Durante: `imagen5_puesta_encendida_nb2.jpg`.
+   - Día 30: `imagen_dia30_v2_nb2.jpg` = NB2 sobre `imagen_inicio_v3`: otro jersey (verde salvia), coleta baja, luz cálida de tarde; después otra pasada NB2 'reduce the dark-circle shadows by about half… keep real skin texture and fine lines; not flawless skin'.
+2. Vídeos seedance-2.5, 480p, 9:16, generate_audio true (prompts literales en `aprendizajes/registro-generaciones.md`, filas 2026-11-14):
+   - Clip 1 (8 s): [día 1, hoja jersey, producto 8]. «Madre mía, las ojeras que tengo…» (pausa) «No sé si funcionará, pero lo voy a probar 30 días.» + 'dark circles visible, exactly as in image 1 — do not lighten or darken' + 'pronounces ojeras with the strong Castilian jota, like jamón' + 'spontaneously, like a voice note to a friend… never an advertisement voice'.
+   - Clip 2 (5 s): [imagen5, hoja, NB2 encendido]. «Diez minutos cada día. Luz roja y microcorrientes.»
+   - Clip 3 (8 s): [día 30, producto 8] SIN hoja (si no, vuelve al jersey crema). Se acerca y se señala bajo el ojo: «Día 30… y mira. Se notan muchísimo menos.» + «Te dejo el enlace en mi perfil.» + 'keeps holding the product in her other hand during the WHOLE clip' (evita gafas a trozos).
+3. Montaje: concat con audio, rótulos «Día 1» / «Día 30» arriba (textos_1080_sin_dim.py, y=120, contorno 3), subtítulos `30dias/subs_30dias_es.ass` (estilo método 1: Poppins 28, minúsculas, MarginV 110), crf 20.
+Coste total del final: ~16,8 créditos (clips 1 y 3 v3 + clip 2 + imagen día 30 v2). Lecciones: 'clearly visible' en el prompt de vídeo exagera las ojeras; la voz de Seedance no se puede corregir después (ElevenLabs Voice Changer probado, no convenció a Arnau).
