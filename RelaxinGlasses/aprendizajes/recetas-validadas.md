@@ -72,7 +72,7 @@ Lo que se hizo bien en la receta 9 y hay que repetir siempre:
 1. **El contraste se crea oscureciendo el ANTES, no aclarando el después.** Día 1 = mezcla gratis 45 % base + 55 % versión con ojeras (NB2 'brownish-grey… NOT purple'). El después parte de la cara base limpia.
 2. **El después se hace con NB2 sobre la imagen base con 'reduce the dark-circle shadows by about half… keep real skin texture and fine lines; not flawless skin'.** "About half" = mejora visible sin cara quemada. Nada de aclarar por script sobre un fotograma ya generado como solución principal.
 3. **Luz frontal y cálida de día en el después** (luz de tarde de ventana). Con lámpara lateral de noche Seedance vuelve a crear sombra bajo los ojos y, si gira la cara, mancha naranja.
-4. **Cambio de contexto (otra ropa, otro peinado, otra luz)** → el espectador entiende que ha pasado tiempo y acepta la diferencia.
+4. **Cambio de ropa/peinado SOLO si el vídeo cuenta que han pasado días** (tipo "30 días"). Si no, misma ropa (decisión de Arnau 18-11). Sin cambio de ropa, la diferencia la sostienen los puntos 1, 2, 3 y 5 y la etiqueta Antes | Después.
 5. **Clip del después: cara quieta mirando a cámara, primer plano, sin girarse hacia la luz.** Prompt ES que funcionó: 'brighter and rested, only very faint natural shadows' (si salen manchas pálidas → 'same natural skin tone as her cheeks… no pale or grey patches, no concealer look, no glow').
 6. **Sin la hoja de personaje** en el clip del después (si no, recupera ropa/estado del antes).
 Antes de lanzar un después: comprobar en la imagen de inicio, lado a lado con el antes, que la diferencia se ve a tamaño móvil. Si no se ve en la foto, no se verá en el vídeo.
