@@ -65,3 +65,14 @@ Por qué: un antes/después dentro del mismo plano queda falso ("quemado") y poc
    - Clip 3 (8 s): [día 30, producto 8] SIN hoja (si no, vuelve al jersey crema). Se acerca y se señala bajo el ojo: «Día 30… y mira. Se notan muchísimo menos.» + «Te dejo el enlace en mi perfil.» + 'keeps holding the product in her other hand during the WHOLE clip' (evita gafas a trozos).
 3. Montaje: concat con audio, rótulos «Día 1» / «Día 30» arriba (textos_1080_sin_dim.py, y=120, contorno 3), subtítulos `30dias/subs_30dias_es.ass` (estilo método 1: Poppins 28, minúsculas, MarginV 110), crf 20.
 Coste total del final: ~16,8 créditos (clips 1 y 3 v3 + clip 2 + imagen día 30 v2). Lecciones: 'clearly visible' en el prompt de vídeo exagera las ojeras; la voz de Seedance no se puede corregir después (ElevenLabs Voice Changer probado, no convenció a Arnau).
+
+## REGLA DEL DESPUÉS (2026-11-18) — leer antes de generar cualquier "después"
+Comparación: el después funcionó en la receta 9 (mujer B 30 días, jersey verde salvia) y falló en el brief 3 s (mujer B de noche, clip 4).
+Lo que se hizo bien en la receta 9 y hay que repetir siempre:
+1. **El contraste se crea oscureciendo el ANTES, no aclarando el después.** Día 1 = mezcla gratis 45 % base + 55 % versión con ojeras (NB2 'brownish-grey… NOT purple'). El después parte de la cara base limpia.
+2. **El después se hace con NB2 sobre la imagen base con 'reduce the dark-circle shadows by about half… keep real skin texture and fine lines; not flawless skin'.** "About half" = mejora visible sin cara quemada. Nada de aclarar por script sobre un fotograma ya generado como solución principal.
+3. **Luz frontal y cálida de día en el después** (luz de tarde de ventana). Con lámpara lateral de noche Seedance vuelve a crear sombra bajo los ojos y, si gira la cara, mancha naranja.
+4. **Cambio de contexto (otra ropa, otro peinado, otra luz)** → el espectador entiende que ha pasado tiempo y acepta la diferencia.
+5. **Clip del después: cara quieta mirando a cámara, primer plano, sin girarse hacia la luz.** Prompt ES que funcionó: 'brighter and rested, only very faint natural shadows' (si salen manchas pálidas → 'same natural skin tone as her cheeks… no pale or grey patches, no concealer look, no glow').
+6. **Sin la hoja de personaje** en el clip del después (si no, recupera ropa/estado del antes).
+Antes de lanzar un después: comprobar en la imagen de inicio, lado a lado con el antes, que la diferencia se ve a tamaño móvil. Si no se ve en la foto, no se verá en el vídeo.
