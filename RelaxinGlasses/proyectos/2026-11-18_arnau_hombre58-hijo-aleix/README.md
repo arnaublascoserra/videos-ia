@@ -1,0 +1,3 @@
+# Hombre58 — "Mi hijo me regaló esto…" con el método de Aleix (2026-11-18)
+Referencia: @myoculis vídeo 7680321977562811670 (481,8 mil vistas). **Permiso de @myoculis por DM de TikTok (18-11-2026, 14:28 y 15:07)** para usarlos editados con IA (cambio de cara, nuestro producto, anuncios), sin necesidad de mencionarlos. Captura guardada por Arnau fuera del repo. Arnau asume la responsabilidad del permiso.
+- trozos/hijo_limpio_v1.mp4: referencia sin textos (quitar_textos_coche.py adaptado, bandas 140–300 y 640–780), 10,08 s, 576×1024, 2 planos (corte en 6,1 s), sin audio.
