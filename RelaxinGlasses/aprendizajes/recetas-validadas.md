@@ -76,3 +76,6 @@ Lo que se hizo bien en la receta 9 y hay que repetir siempre:
 5. **Clip del después: cara quieta mirando a cámara, primer plano, sin girarse hacia la luz.** Prompt ES que funcionó: 'brighter and rested, only very faint natural shadows' (si salen manchas pálidas → 'same natural skin tone as her cheeks… no pale or grey patches, no concealer look, no glow').
 6. **Sin la hoja de personaje** en el clip del después (si no, recupera ropa/estado del antes).
 Antes de lanzar un después: comprobar en la imagen de inicio, lado a lado con el antes, que la diferencia se ve a tamaño móvil. Si no se ve en la foto, no se verá en el vídeo.
+
+## REGLA ANTES DE GENERAR (2026-11-21) — revisar clips ya hechos
+Antes de proponer clips nuevos, revisar `generaciones/` de TODOS los proyectos del mismo avatar y escenario (no solo los fotogramas). En V2b (A en el coche) se regeneraron 4 clips (19,37 créditos) cuando `2026-11-16_arnau_mujerA-coche-metodo1/generaciones/` ya tenía clip1 (se pone las gafas + manos en mejillas) y clip2 (luz roja quieta): solo faltaba el de quitárselas (c4). Comprobar también si ese metraje ya se publicó (mismo metraje = una vez por red).
