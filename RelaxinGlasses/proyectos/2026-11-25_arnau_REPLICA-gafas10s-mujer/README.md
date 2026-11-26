@@ -15,3 +15,9 @@ Arreglo: B0_v3 e I3_v3 (edición NB2 "ambos ojos igual de abiertos y relajados";
 Clips v2 (seed 2611): c1, c2, c3, c5 → todos válidos. c1 parpadea en 0,4–0,8 s.
 Coste extra v2: imágenes 0,84 + clips 15,5. Total réplica ≈ 37,2 créditos.
 Lecciones: comparar altura de las gafas y expresión lado a lado con el vídeo de referencia antes de lanzar clips; pedir "relaxed natural eyes" desde la imagen base; para subir las gafas, regenerar desde la base con REP1_I5 como referencia de altura en vez de editar.
+
+## v3 (26-11) — «después» al final, NO para anuncios
+- c5: solo hasta 2,7 s (después gira las gafas y se ven piezas negras inventadas).
+- c6 «después»: fotograma 2,5 s de c2 v2 → NB2 edit (ojeras más suaves en los dos ojos, textura real) → color igualado gratis (LAB, excluyendo la zona de ojeras) → seedance 4 s. Se usa 1,6–2,6.
+- aclarar_ojeras.py NO sirve en planos con el dedo bajo el ojo: aclara solo el ojo sin dedo.
+- Coste v3: 0,14 + 3,9. Total réplica ≈ 41,2 créditos.
