@@ -1,0 +1,18 @@
+{
+ "tipo": "video",
+ "body": {
+  "aspect_ratio": "adaptive",
+  "duration": 4,
+  "resolution": "480p",
+  "generate_audio": false,
+  "seed": 2611,
+  "model": "seedance-2.5",
+  "prompt": "Image 1 is the first frame of the video. Vertical UGC smartphone selfie video, medium shot, static handheld camera with very slight natural shake. The woman, holding the white glasses at chest height, laughs heartily and naturally at the camera, a real open laugh with small natural head and shoulder movements, eyes squinting from the laugh. She does not touch her face, does not put the glasses on, does not talk. Same skin and same soft under-eye area as in image 1, do not darken it. Same warm living room light. No text.",
+  "image_with_roles": [
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I6_risa_suave_color.jpg",
+    "role": "first_frame"
+   }
+  ]
+ }
+}

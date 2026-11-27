@@ -1,0 +1,22 @@
+{
+ "tipo": "video",
+ "body": {
+  "aspect_ratio": "adaptive",
+  "duration": 4,
+  "resolution": "480p",
+  "generate_audio": false,
+  "seed": 2611,
+  "model": "seedance-2.5",
+  "prompt": "Image 1 is the first frame and image 2 is the last frame. Vertical UGC smartphone video, extreme close-up, static handheld camera with very slight natural shake. The woman keeps the white glasses exactly where they are, right under her lower eyelids, eyes uncovered, fingertips holding the outer ends of the band next to her temples. She stays still and looks into the camera with relaxed natural eyes. At about 0.8 seconds the red light inside the glasses switches on smoothly under her eyes and stays on exactly as in image 2; the eyes stay clean, not tinted red. She does not move the glasses, does not press anything, does not talk. No text.",
+  "image_with_roles": [
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I5_cerca_apagada.jpg",
+    "role": "first_frame"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I5_cerca_encendida_suave.jpg",
+    "role": "last_frame"
+   }
+  ]
+ }
+}

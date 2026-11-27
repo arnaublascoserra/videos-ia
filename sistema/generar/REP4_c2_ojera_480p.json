@@ -1,0 +1,18 @@
+{
+ "tipo": "video",
+ "body": {
+  "aspect_ratio": "adaptive",
+  "duration": 4,
+  "resolution": "480p",
+  "generate_audio": false,
+  "seed": 2611,
+  "model": "seedance-2.5",
+  "prompt": "Image 1 is the first frame of the video. Vertical UGC smartphone selfie video, medium shot, static handheld camera with very slight natural shake. The woman looks into the camera with a serious expression and relaxed natural eyes. Early in the clip she raises her right hand and, with her index finger coming in from the side of her face, gently touches the dark circle under her left eye and holds the gesture. She does not talk. Under-eye shadows exactly as in image 1, do not darken them. Same warm living room light. No glasses. No text.",
+  "image_with_roles": [
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I2_base.jpg",
+    "role": "first_frame"
+   }
+  ]
+ }
+}

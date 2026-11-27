@@ -1,0 +1,22 @@
+{
+ "tipo": "video",
+ "body": {
+  "aspect_ratio": "adaptive",
+  "duration": 4,
+  "resolution": "480p",
+  "generate_audio": false,
+  "seed": 2611,
+  "model": "seedance-2.5",
+  "prompt": "Image 1 is the first frame and image 2 is the last frame. Vertical UGC smartphone video, medium shot, static handheld camera with very slight natural shake. The woman holds the white glasses with both hands in front of her chest, brings them up to her face and puts them on quickly and naturally: they end resting right under her lower eyelids, eyes fully uncovered, fingertips on the outer ends of the band next to her temples, exactly as in image 2. Relaxed natural eyes. Glasses switched off. She does not talk. Same living room light. No text.",
+  "image_with_roles": [
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I3.jpg",
+    "role": "first_frame"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I5_v2.jpg",
+    "role": "last_frame"
+   }
+  ]
+ }
+}

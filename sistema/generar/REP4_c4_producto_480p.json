@@ -1,0 +1,22 @@
+{
+ "tipo": "video",
+ "body": {
+  "aspect_ratio": "adaptive",
+  "duration": 4,
+  "resolution": "480p",
+  "generate_audio": false,
+  "seed": 2611,
+  "model": "seedance-2.5",
+  "prompt": "Image 1 is the first frame and image 2 is the last frame. Vertical UGC smartphone video, close-up of two hands holding the white glasses up towards the camera in a softly blurred living room, handheld camera with very slight natural shake. The hands hold the glasses steady with tiny natural movements and bring them slightly closer to the camera; the glasses keep the same shape. At about 1.5 seconds the red light on the inner pads switches on and stays on, exactly as in image 2. No new buttons, no extra fingers, no text.",
+  "image_with_roles": [
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I4a.jpg",
+    "role": "first_frame"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I4b.jpg",
+    "role": "last_frame"
+   }
+  ]
+ }
+}
