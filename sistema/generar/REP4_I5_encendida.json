@@ -1,0 +1,13 @@
+{
+ "tipo": "imagen",
+ "body": {
+  "model": "gemini-3.1-flash-image-preview",
+  "prompt": "Keep image 1 EXACTLY the same: same woman, same face, same eyes, same hands, same glasses in the same position, same living room, same framing and same light. The only change: switch the glasses ON - a soft red LED glow from the inner side of the band lights the skin right under her eyes (the under-eye area), like the lit glasses in image 2. The eyes themselves stay clean and natural, not tinted red. Nothing else changes. No text, no logos.",
+  "image_urls": [
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I5_v2.jpg",
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/metodo-filedesign/04_video/fotogramas/imagen5_puesta_encendida_nb2.jpg"
+  ],
+  "size": "9:16",
+  "resolution": "2K"
+ }
+}
