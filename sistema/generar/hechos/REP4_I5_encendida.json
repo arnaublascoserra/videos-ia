@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_I5_encendida",
+ "tipo": "imagen",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FFRCN6BCZ48PB548QNFJZW"
+   }
+  ]
+ },
+ "task_id": "task_01M8FFRCN6BCZ48PB548QNFJZW",
+ "estado": "completed",
+ "coste_creditos": 0.14,
+ "detalle": null,
+ "url": "https://getapib.org/f/images/aiimg_aca35baf9f55eb967e9e1ce26437d53f-0.jpg"
+}
