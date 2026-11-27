@@ -1,0 +1,12 @@
+{
+ "tipo": "imagen",
+ "body": {
+  "model": "gemini-3.1-flash-image-preview",
+  "prompt": "Keep image 1 EXACTLY the same: same woman, same laugh, same teeth, same hands holding the glasses, same cream sweater, same living room, same framing and same light. The only change: the dark circles and under-eye bags under BOTH eyes look clearly softer and lighter, the same on both sides. Keep real skin with its pores, freckles and laugh lines; not smooth, not airbrushed, no makeup, not an advertisement look. Nothing else changes. No text.",
+  "image_urls": [
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I6_risa.jpg"
+  ],
+  "size": "9:16",
+  "resolution": "2K"
+ }
+}
