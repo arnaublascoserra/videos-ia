@@ -1,0 +1,13 @@
+{
+ "tipo": "imagen",
+ "body": {
+  "model": "gemini-3.1-flash-image-preview",
+  "prompt": "Image 1 is the woman, her living room, the light and the camera framing: keep her face, dark brown shoulder-length hair, age, freckles, under-eye shadows, cream knit sweater, the same living room with the same light and the exact same medium-shot selfie framing as image 1. From image 2 copy ONLY the white glasses and their HEIGHT on the face: the top edge of the band sits tight just below her lower eyelashes, covering the under-eye area where the dark circles are, the middle of the band resting on the upper part of the nose bridge. Her eyes stay completely uncovered above the band. Both hands raised, fingertips holding the outer ends of the band next to her temples. Glasses switched OFF. Calm look at the camera, relaxed natural eyes, both equally open. No white patches under the eyes. Do NOT copy the woman of image 2, her hair, her clothes or her bedroom. No text, no logos.",
+  "image_urls": [
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/avatares/mujerC_52/C_base.jpg",
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-25_arnau_REPLICA-gafas10s-mujer/fotogramas/REP3_I5_v3.jpg"
+  ],
+  "size": "9:16",
+  "resolution": "2K"
+ }
+}
