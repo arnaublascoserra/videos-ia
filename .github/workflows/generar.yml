@@ -1,0 +1,30 @@
+name: Generar en APIMart
+on:
+  push:
+    paths:
+      - 'sistema/generar/*.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: generar-apimart
+  cancel-in-progress: false
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar pedidos pendientes
+        env:
+          APIMART_API_KEY: ${{ secrets.APIMART_API_KEY }}
+        run: python3 scripts/propios/generar_apimart.py
+      - name: Guardar en el repositorio
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add sistema/descargas sistema/generar/hechos
+          git diff --cached --quiet && exit 0
+          git commit -m "Generaciones APIMart"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
