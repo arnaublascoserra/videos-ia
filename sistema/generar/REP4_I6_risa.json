@@ -1,0 +1,13 @@
+{
+ "tipo": "imagen",
+ "body": {
+  "model": "gemini-3.1-flash-image-preview",
+  "prompt": "The same woman as in image 1: identical face, dark brown shoulder-length hair, freckles, age, cream knit sweater, same living room, same light and the exact same medium-shot selfie framing as image 1. She is NOT wearing the glasses: she holds the white glasses from image 2 (switched off, same shape) in one hand at chest height. She laughs heartily and naturally at the camera, real open laugh showing her teeth, eyes slightly squinted from laughing. She does not touch her face. Same soft natural under-eye shadows as image 1, not retouched. Real skin texture. No text, no logos.",
+  "image_urls": [
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/avatares/mujerC_52/C_base.jpg",
+   "https://raw.githubusercontent.com/arnaublascoserra/videos-ia/main/RelaxinGlasses/proyectos/2026-11-27_arnau_REPLICA-gafas10s-C/fotogramas/REP4_I3.jpg"
+  ],
+  "size": "9:16",
+  "resolution": "2K"
+ }
+}
