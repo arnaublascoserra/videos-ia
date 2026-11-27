@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_c1_encender_480p",
+ "tipo": "video",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FHDE7BQ4K9G8EDPAV10TYN"
+   }
+  ]
+ },
+ "task_id": "task_01M8FHDE7BQ4K9G8EDPAV10TYN",
+ "estado": "completed",
+ "coste_creditos": 3.883,
+ "detalle": null,
+ "url": "https://getapib.org/video/9998204181809148-4df96553-c9ae-435a-a419-d684d44aaa3e-video_task_01M8FHDE7BQ4K9G8EDPAV10TYN.mp4"
+}

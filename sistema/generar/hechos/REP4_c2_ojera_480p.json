@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_c2_ojera_480p",
+ "tipo": "video",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FHPAJ4JPCG2F16CX4HSSM5"
+   }
+  ]
+ },
+ "task_id": "task_01M8FHPAJ4JPCG2F16CX4HSSM5",
+ "estado": "completed",
+ "coste_creditos": 3.8759,
+ "detalle": null,
+ "url": "https://getapib.org/video/9998204181631672-847924b1-3a67-4958-8dbc-c3a949e9c0c9-video_task_01M8FHPAJ4JPCG2F16CX4HSSM5.mp4"
+}

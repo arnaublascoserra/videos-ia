@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_c3_ponerse_480p",
+ "tipo": "video",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FHVR1JY10P6PSEGFF3A0G8"
+   }
+  ]
+ },
+ "task_id": "task_01M8FHVR1JY10P6PSEGFF3A0G8",
+ "estado": "completed",
+ "coste_creditos": 3.8759,
+ "detalle": null,
+ "url": "https://getapib.org/video/9998204181443588-cffd7c54-a19a-4872-a6ea-689b13a61c40-video_task_01M8FHVR1JY10P6PSEGFF3A0G8.mp4"
+}

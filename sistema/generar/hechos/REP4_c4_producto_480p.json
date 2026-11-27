@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_c4_producto_480p",
+ "tipo": "video",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FJ1EET2NBBQ24FN80N65MB"
+   }
+  ]
+ },
+ "task_id": "task_01M8FJ1EET2NBBQ24FN80N65MB",
+ "estado": "completed",
+ "coste_creditos": 3.8759,
+ "detalle": null,
+ "url": "https://getapib.org/video/9998204181216972-abe11e6a-100e-4172-9624-4dbdfd4a2005-video_task_01M8FJ1EET2NBBQ24FN80N65MB.mp4"
+}

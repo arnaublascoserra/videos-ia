@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_c5_risa_480p",
+ "tipo": "video",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FJ8DG54RGBXA98S38JEG5Y"
+   }
+  ]
+ },
+ "task_id": "task_01M8FJ8DG54RGBXA98S38JEG5Y",
+ "estado": "completed",
+ "coste_creditos": 3.8759,
+ "detalle": null,
+ "url": "https://getapib.org/video/9998204181017630-ed9c4016-90e5-4f60-8998-4dcd13133b53-video_task_01M8FJ8DG54RGBXA98S38JEG5Y.mp4"
+}
