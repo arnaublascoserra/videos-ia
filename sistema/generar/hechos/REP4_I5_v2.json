@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_I5_v2",
+ "tipo": "imagen",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FF788KWED33K86R8X50VQ1"
+   }
+  ]
+ },
+ "task_id": "task_01M8FF788KWED33K86R8X50VQ1",
+ "estado": "completed",
+ "coste_creditos": 0.14,
+ "detalle": null,
+ "url": "https://getapib.org/f/images/aiimg_694b7596ae907751e51d048968fae280-0.jpg"
+}
