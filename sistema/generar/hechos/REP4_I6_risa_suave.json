@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_I6_risa_suave",
+ "tipo": "imagen",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FGM6C7QSKBTES975DZP3ZT"
+   }
+  ]
+ },
+ "task_id": "task_01M8FGM6C7QSKBTES975DZP3ZT",
+ "estado": "completed",
+ "coste_creditos": 0.14,
+ "detalle": null,
+ "url": "https://getapib.org/f/images/aiimg_5c14b547c367ab475fe04fc0e930cbcc-0.jpg"
+}
