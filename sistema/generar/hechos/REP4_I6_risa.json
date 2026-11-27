@@ -1,0 +1,18 @@
+{
+ "nombre": "REP4_I6_risa",
+ "tipo": "imagen",
+ "envio": {
+  "code": 200,
+  "data": [
+   {
+    "status": "submitted",
+    "task_id": "task_01M8FFJBT9KFR82N8V6SZCT7H5"
+   }
+  ]
+ },
+ "task_id": "task_01M8FFJBT9KFR82N8V6SZCT7H5",
+ "estado": "completed",
+ "coste_creditos": 0.14,
+ "detalle": null,
+ "url": "https://getapib.org/f/images/aiimg_df782862b2c3184d84319b0118527e72-0.jpg"
+}
