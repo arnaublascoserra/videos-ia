@@ -1,0 +1,16 @@
+RÉPLICA «gafas 10 s» con avatar C (52, salón) — 27-11-2026. Copia exacta del vídeo del hombre (2026-11-22_replica_gafas10s_ES.mp4).
+Final con la risa y las ojeras algo suavizadas → solo orgánico, no anuncios.
+
+Plano | Montaje (s) | Clip | Segundos del clip
+c1      | 0,00–2,43  | REP4_c1_encender.mp4               | 0,00–2,43 (la luz se enciende ~1,0 s)
+c2      | 2,43–4,37  | REP4_c2_ojera.mp4                  | 1,40–3,34 (ya señalando; antes cierra los ojos)
+c3      | 4,37–5,97  | REP4_c3_ponerse.mp4                | 0,50–2,10
+c4a+c4b | 5,97–7,93  | REP4_c4_producto_acercamiento.mp4  | entero
+c5      | 7,93–10,00 | REP4_c5_risa.mp4                   | 1,20–3,27
+
+Textos (iguales que el hombre):
+0–4,3 «Mira lo que hago con mis OJERAS 😲»
+4,3–6,5 «Son unas gafas con luz roja y microcorrientes… pero 😉»
+6,5–7,9 «Espera ✋»
+7,9–10 «Comenta YO si también quieres unas 🔴» + rojo abajo «Más info en el perfil»
+Publicar separado al menos una semana de la versión de R.
